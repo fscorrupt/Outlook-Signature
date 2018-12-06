@@ -33,7 +33,7 @@ Version 1.4
 
 Example for Sig Template File:
 
-
+![alt text](https://raw.githubusercontent.com/FSCorrupt/Outlook-Signature/master/html.png)
 
 Example on How to run the Script:
 
