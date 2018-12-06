@@ -32,29 +32,12 @@ Version 1.4
  
 
 Example for Sig Template File:
- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml"> 
-<head> 
-<meta http-equiv="content-type" content="text/html; charset=Windows-1250" /> 
-</head> 
-<body> 
-<div style="margin: 0px; padding: 0px; font-size: 9pt; font-family: Arial; color: black;"> 
-    <p style="margin: 0px; margin-bottom: 12px;">Greetings,</p> 
-    <p style="margin: 0px; text-transform: uppercase; font-weight: bold;">$ADDisplayName</p> 
-    <p style="margin: 0px; margin-bottom: -8px;">$ADTitleValue</p> 
-    <p style="margin: 0px; margin-bottom: -8px;">$ADDepartmentValue</p> 
-    <p style="margin: 0px; margin-bottom: -8px;">$SecondDepartment</p> 
-    <p style="margin: 0px;">_____________________________</p> 
-    <p style="margin: 0px;">$AdPhoneValue</p> 
-    <p style="margin: 0px;">$ADFaxValue</p> 
-    <p style="margin: 0px;"><a href="mailto:$ADemail">$ADemail</a></p> 
-    </p> 
-</div> 
-</body> 
-</html>
+
+
 
 Example on How to run the Script:
+
 SignatureScript.ps1 -TemplatePath '\\server0001\Templates\' -Sig1 'Signame' -Sig2 'Sigreplyname'
+
 Evreything in Script is build in Windows, so no Modules or wrapper needed.
 Have Fun :)
